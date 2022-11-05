@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./components/base/header";
+import Footer from "./components/base/footer";
 
 const App = () => {
   return (
     <div className="App">
-      <h1 className="font-bold text-5xl text-green-600 text-center py-12">AudioPhile Project is Live</h1>
+      <Header />
+      <Footer />
     </div>
   );
 };
