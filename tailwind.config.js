@@ -10,6 +10,8 @@ module.exports = {
         },
         primary: {
           black: "#101010",
+          'black-50': '#00000080',
+          'white-50': '#FFFFFF80',
           white1: "#F1F1F1",
           white2: "#FAFAFA",
         },
