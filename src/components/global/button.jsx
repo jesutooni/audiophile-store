@@ -11,10 +11,10 @@ const button = ({ theme, text }) => {
   };
   return (
     <button
-      className={`py-4 px-8 font-bold text-sm uppercase flex items-center gap-3 ${themeClasses[theme]} duration-150`}
+      className={`py-3.5 px-8 font-bold text-xs uppercase flex items-center gap-3 ${themeClasses[theme]} duration-150`}
     >
       {text}
-      <RightCaret />
+      {theme === "transparent" && <RightCaret />}
     </button>
   );
 };
