@@ -5,7 +5,7 @@ const button = ({ theme, text }) => {
   const themeClasses = {
     peach: "bg-peach-dark hover:bg-peach-light text-white",
     white:
-      "bg-white hover:bg-black border border-black text-black hover:text-white",
+      "bg-transparent hover:bg-black border border-black text-black hover:text-white",
     black: "bg-black hover:bg-[#4C4C4C] text-white",
     transparent:
       "text-primary-black-50 hover:opacity-100 hover:text-peach-dark",
