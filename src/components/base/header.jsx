@@ -8,7 +8,7 @@ const navigation = () => {
   return (
     <header className="bg-black">
       <div className="px-6">
-        <nav className="flex items-center justify-between py-9 border-b border-white max-w-6xl mx-auto">
+        <nav className="flex items-center justify-between py-9 border-b border-[#FFFFFF33] max-w-6xl mx-auto">
           <div className="flex gap-10 items-center">
             <Hamburger className="md:hidden cursor-pointer" />
             <Logo className="hidden sm:block cursor-pointer" />

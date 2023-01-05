@@ -17,6 +17,9 @@ module.exports = {
           white2: "#FAFAFA",
         },
       },
+      screens: {
+        'xs': '475px'
+      }
     },
   },
   plugins: [],
